@@ -1,0 +1,1 @@
+/Users/chetanmunugala/anaconda3/envs/database/bin/postgres "-D" "rag_server"

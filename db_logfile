@@ -1,0 +1,37 @@
+2024-02-24 16:40:12.594 PST [83667] LOG:  starting PostgreSQL 12.15 on x86_64-apple-darwin13.4.0, compiled by clang version 14.0.6, 64-bit
+2024-02-24 16:40:12.596 PST [83667] LOG:  listening on IPv6 address "::1", port 5432
+2024-02-24 16:40:12.596 PST [83667] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-02-24 16:40:12.596 PST [83667] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-24 16:40:12.605 PST [83668] LOG:  database system was shut down at 2024-02-24 16:39:50 PST
+2024-02-24 16:40:12.617 PST [83667] LOG:  database system is ready to accept connections
+2024-02-24 16:56:35.407 PST [85167] FATAL:  database "chetanmunugala" does not exist
+2024-02-24 16:57:02.000 PST [85181] FATAL:  database "vector_db" does not exist
+2024-02-24 16:57:20.211 PST [85194] FATAL:  database "chetanmunugala" does not exist
+2024-02-24 16:57:21.201 PST [85204] FATAL:  database "chetanmunugala" does not exist
+2024-02-24 16:57:22.215 PST [85215] FATAL:  database "chetanmunugala" does not exist
+2024-02-24 16:57:22.836 PST [85225] FATAL:  database "chetanmunugala" does not exist
+2024-02-24 16:57:23.881 PST [85235] FATAL:  database "chetanmunugala" does not exist
+2024-02-24 16:57:24.768 PST [85246] FATAL:  database "chetanmunugala" does not exist
+2024-02-24 16:57:57.130 PST [86211] FATAL:  database "chetanmunugala" does not exist
+2024-02-24 16:57:58.155 PST [86221] FATAL:  database "chetanmunugala" does not exist
+2024-02-24 16:57:58.653 PST [86231] FATAL:  database "chetanmunugala" does not exist
+2024-02-24 16:57:58.739 PST [86241] FATAL:  database "chetanmunugala" does not exist
+2024-02-24 16:58:26.656 PST [86266] FATAL:  database "chetanmunugala" does not exist
+2024-02-24 16:59:15.137 PST [86291] FATAL:  role "postgres" does not exist
+2024-02-25 15:45:11.807 PST [90294] FATAL:  database "chetanmunugala" does not exist
+2024-02-25 15:45:32.431 PST [90311] FATAL:  database "chetanmunugala" does not exist
+2024-02-25 15:45:34.338 PST [90319] FATAL:  database "vector_db" does not exist
+2024-02-25 15:45:41.609 PST [90327] FATAL:  database "chetanmunugala" does not exist
+2024-02-25 15:45:42.314 PST [90337] FATAL:  database "chetanmunugala" does not exist
+2024-02-25 15:45:42.449 PST [90347] FATAL:  database "chetanmunugala" does not exist
+2024-02-25 15:45:46.313 PST [90359] FATAL:  database "chetanmunugala" does not exist
+2024-02-25 15:50:55.546 PST [83673] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2024-02-25 15:50:55.588 PST [83667] LOG:  could not open file "postmaster.pid": No such file or directory
+2024-02-25 15:50:55.588 PST [83667] LOG:  performing immediate shutdown because data directory lock file is invalid
+2024-02-25 15:50:55.588 PST [83667] LOG:  received immediate shutdown request
+2024-02-25 15:50:55.588 PST [83667] LOG:  could not open file "postmaster.pid": No such file or directory
+2024-02-25 15:50:55.589 PST [83672] WARNING:  terminating connection because of crash of another server process
+2024-02-25 15:50:55.589 PST [83672] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2024-02-25 15:50:55.589 PST [83672] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2024-02-25 15:50:55.593 PST [83673] LOG:  could not open temporary statistics file "pg_stat/global.tmp": No such file or directory
+2024-02-25 15:50:55.600 PST [83667] LOG:  database system is shut down
